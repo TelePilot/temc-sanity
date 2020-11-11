@@ -9,6 +9,7 @@ import footer from './footer.js'
 import socialMedia from './socialMedia.js'
 import client from './client.js'
 import tagline from './tagline.js'
+import about from './about.js'
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
 	// We name our schema
@@ -21,6 +22,7 @@ export default createSchema({
 		header,
 		tagline,
 		client,
+		about,
 		menuItem,
 		footer,
 		socialMedia,
