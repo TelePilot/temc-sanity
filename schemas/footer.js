@@ -12,7 +12,26 @@ export default {
 		{
 			title: 'Company info',
 			name: 'companyInfo',
-			type: 'string',
+			type: 'array',
+			of: [{ type: 'companyInfo' }],
+		},
+		{
+			title: 'Company location',
+			name: 'companyLocation',
+			type: 'array',
+			of: [{ type: 'companyLocation' }],
+		},
+		{
+			title: 'Company openhours',
+			name: 'companyOpenhours',
+			type: 'array',
+			of: [{ type: 'companyOpenhours' }],
+		},
+		{
+			title: 'Menu',
+			name: 'menu',
+			type: 'array',
+			of: [{ type: 'menuItem' }],
 		},
 	],
 }
