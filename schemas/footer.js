@@ -10,12 +10,6 @@ export default {
 			of: [{ type: 'socialMedia' }],
 		},
 		{
-			title: 'Company info',
-			name: 'companyInfo',
-			type: 'array',
-			of: [{ type: 'companyInfo' }],
-		},
-		{
 			title: 'Company location',
 			name: 'companyLocation',
 			type: 'array',
