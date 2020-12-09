@@ -14,6 +14,11 @@ export default {
 			type: 'text',
 		},
 		{
+			title: 'Date (used for sorting)',
+			name: 'date',
+			type: 'date',
+		},
+		{
 			title: 'Logo (please compress image and resize)',
 			name: 'logo',
 			type: 'image',

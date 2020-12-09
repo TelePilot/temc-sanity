@@ -1,6 +1,6 @@
 export default {
-	title: 'CompanyOpenhours Item',
-	name: 'companyOpenhoursItem',
+	title: 'Company Open Hours',
+	name: 'companyOpenhours',
 	type: 'object',
 	fields: [
 		{
