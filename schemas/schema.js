@@ -12,6 +12,7 @@ import tagline from './tagline.js'
 import about from './about.js'
 import companyLocation from './companyLocation.js'
 import companyOpenhours from './companyOpenhours.js'
+import priskategori from './priskategori.js'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -31,5 +32,6 @@ export default createSchema({
 		socialMedia,
 		companyLocation,
 		companyOpenhours,
+		priskategori,
 	]),
 })
