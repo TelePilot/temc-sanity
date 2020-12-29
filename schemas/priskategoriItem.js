@@ -13,15 +13,5 @@ export default {
       name: "active",
       type: "boolean",
     },
-    {
-      title: "Price",
-      name: "price",
-      type: "string",
-    },
-    {
-      title: "Valuta",
-      name: "valuta",
-      type: "string",
-    },
   ],
 }
