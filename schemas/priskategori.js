@@ -17,23 +17,10 @@ export default {
             },
         },
 		{
-			title: 'Tagline',
-			name: 'tagline',
-			type: 'string',
-		},
-		{
-			title: 'Hero Image',
-			name: 'heroImage',
-			type: 'image',
-			options: {
-				hotspot: true, // <-- Defaults to false
-			},
-		},
-		{
-			title: 'Menu',
-			name: 'menu',
+			title: 'Kategorier',
+			name: 'kategorier',
 			type: 'array',
-			of: [{ type: 'menuItem' }],
+			of: [{ type: 'kategori' }],
 		},
 	],
 }
